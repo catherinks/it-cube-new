@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IT-cube | Новинки обучения</title>
+</head>
+<body>
+  <div id="gray" onclick="show('none')"></div>
+    <header class="header">
+        <div class="container">
+          <div class="header_navbar">
+            <div class="header_logo">
+              <a href="index.html">
+                <img
+                  src="img/лого.svg"
+                  alt="логотип IT-cube"
+                  class="logo-img"
+                />
+              </a>
+            </div>
+            <nav class="header_menu">
+              <ul class="menu">
+                <li class="menu-item">
+                  <a href="#!" class="menu-link">Главная</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#!" class="menu-link">О компании</a>
+                </li>
+                <li class="menu-item">
+                  <a href="index.html" class="menu-link menu-link_active">Новинки обучения</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#!" class="menu-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="section banner">
+        <div class="container">
+            <div class="row">
+        <div class="col-2">
+            <h2 class="subtitle sub_banner">Курс “Блогомания”</h2>
+            <p class="text banner_text">Обучающая программа, разработанная для тех, кто хочет научиться создавать и успешно вести свой собственный блог. Блогинг стал популярным способом поделиться своим мнением, опытом, идеями или продвигать бренд.</p>
+            <button class="btn banner_btn" onclick="show('block')">Успей записаться!</button>
+        </div>
+        <div class="col-2">
+            <img src="img/баннер.svg" alt="баннер" class="banner_img">
+        </div>
+    </div>
+</div>
+
+<div class="form_window">
+<form action="#!" class="banner_form" id="forma">
+  <h2 class="subtitle sub_itog">Запись на курс “Блогомания”</h2>
+
+  <input type="text" placeholder="Фамилия" class="form-item" required>
+  <input type="text" placeholder="Имя" class="form-item" required>
+  <input type="text" placeholder="Отчество" class="form-item" required>
+  <input type="number" placeholder="Возраст" class="form-item" required min="14" max="100" value="14">
+  <input type="tel" placeholder="Номер телефона" class="form-item" required>
+  <input type="email" placeholder="Email" class="form-item" required>
+
+  <button class="btn">Отправить</button>
+</form></div>
+      </section>
+
+      <section class="section about">
+        <div class="container">
+            <h2 class="title title_blue">О курсе</h2>
+            <div class="about-item">
+                <div class="about-item-icon">&#128504;</div>
+                <div class="about-item_text text">В рамках этого курса участники получат необходимые знания и навыки, чтобы стать успешными блоггерами. Курс охватывает разнообразные аспекты блогинга, включая создание контента, управление блогом, привлечение аудитории, монетизацию и продвижение блога.</div>
+            </div>
+            <div class="about-item">
+                <div class="about-item-icon">&#128504;</div>
+                <div class="about-item_text text">В процессе обучения участники будут иметь возможность создать свой собственный блог и получить обратную связь от опытных тренеров. Они также смогут общаться и делиться опытом с другими участниками курса.</div>
+            </div>
+            <div class="about-item">
+                <div class="about-item-icon">&#128504;</div>
+                <div class="about-item_text text">Курс "Блогинг" подходит для всех, кто интересуется созданием блога, независимо от опыта и предпочтений. Он поможет участникам освоить не только технические навыки блогинга, но и развить креативность, коммуникационные и маркетинговые умения.</div>
+            </div>
+    </div>
+      </section>
+
+      <section class="section plan">
+        <div class="container">
+            <h2 class="title">План курса</h2>
+            <div class="row">
+              <div class="col-3">
+                <div><img src="img/иконка введение.svg" alt="введение" class="plan_image"></div>
+                <div class="subtitle">Введение в блогинг</div>
+            </div>
+            <div class="col-3">
+              <div><img src="img/иконка тема.svg" alt="тема" class="plan_image"></div>
+              <div class="subtitle">Как выбрать тему для блога</div>
+          </div>
+          <div class="col-3">
+            <div><img src="img/иконка оформление.svg" alt="оформление" class="plan_image"></div>
+            <div class="subtitle">Создание и оформление блога</div>
+        </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <div><img src="img/иконка контент.svg" alt="контент" class="plan_image"></div>
+                <div class="subtitle">Процесс написания контента</div>
+            </div>
+            <div class="col-3">
+              <div><img src="img/иконка аудитория.svg" alt="аудитория" class="plan_image"></div>
+              <div class="subtitle">Привлечение и удержание аудитории</div>
+          </div>
+          <div class="col-3">
+            <div><img src="img/иконка монетизация.svg" alt="монетизация" class="plan_image"></div>
+            <div class="subtitle">Монетизация блога</div>
+        </div>
+            </div>
+            
+    </div>
+      </section>
+
+      <section class="section team">
+        <h2 class="title title_blue">Команда</h2>
+        <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="team_img">
+              <img src="img/команда1.png" alt="фотография Александр" class="team_image">
+            </div>
+            <div class="team_name">
+            <h2 class="subtitle name">Александр</h2>
+          </div></div>
+          <div class="col-3">
+            <div class="team_img">
+              <img src="img/команда2.png" alt="фотография Карина" class="team_image">
+            </div>
+            <div class="team_name">
+            <h2 class="subtitle name">Карина</h2>
+          </div></div>
+          <div class="col-3">
+            <div class="team_img">
+              <img src="img/команда3.png" alt="фотография Кирилл" class="team_image">
+            </div>
+            <div class="team_name">
+            <h2 class="subtitle name">Кирилл</h2>
+          </div></div>
+        </div></div>
+      </section>
+
+<section class="section itog">
+  <h2 class="title">Ваши итоги обучения</h2>
+<div class="container">
+  <div class="itog_background">
+    <div class="small-container">
+    <div class="itog_head">
+        <div class="itog-item">
+          <div class="text">Вы обучитесь профессии:</div>
+          <h2 class="subtitle sub_itog">Видеоблогер</h2>
+        </div>
+        <div class="itog-item itog-item-right">
+          <div class="text text_cost">от 50 000 рублей</div>
+          <div class="text">Зарплата видеоблогера<br />в Санкт-Петербурге</div>
+        </div>
+    </div>
+
+<h2 class="subtitle sub_skill">Навыки после обучения:</h2>
+
+    <div class="skill_info">
+      <div class="skill-info1">
+    <div class="about-item">
+      <div class="about-item-icon">&#128504;</div>
+      <div class="about-item_text text">Навык съемки динамичных видеосюжетов</div>
+  </div>
+  <div class="about-item">
+    <div class="about-item-icon">&#128504;</div>
+    <div class="about-item_text text">Монтаж видео в Adobe Premiere Pro</div>
+</div>
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Настройка звука, цветокоррекция и <br />оформление ролика</div>
+</div>
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Создание контента для блога</div>
+</div></div>
+<div class="skill-info2">
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Поставленная речь и дикция</div>
+</div>
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Снятие телесных и речевых зажимов перед <br />камерой</div>
+</div>
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Поиск свежей актуальной информации </div>
+</div>
+<div class="about-item">
+  <div class="about-item-icon">&#128504;</div>
+  <div class="about-item_text text">Создание привлекательных заголовков</div></div>
+</div></div>
+  </div>
+
+</div></div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+      <div class="footer_info">
+          <div class="footer-item"><a href="index.html">
+            <img src="img/лого.svg" alt="logo" class="logo_footer"></a>
+          </div>
+          <div class="link">
+            <ul class="footer_list">
+              <li><a href="#!"><img src="img/иконка вк.svg" alt="иконка вк" class="link_image"></li></a>
+              <li><a href="#!"><img src="img/иконка ватсап.svg" alt="иконка ватсап" class="link_image"></li></a>
+              <li><a href="#!"><img src="img/иконка телеграм.svg" alt="иконка телеграм" class="link_image"></li></a>
+            </ul>
+          </div>
+          <div class="itog-item">
+            <div class="subtitle sub_blue">Контактная информация</div>
+            <div class="text">ул. Красных Командиров, 11а,<br />г. Екатеринбург, Россия</div>
+            <div class="text">Тел.: +7 (343) 363-07-77<br />itcube11a@gmail.com</div>
+          </div>
+      </div>
+
+      <div class="footer_menu">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#!" class="menu-link">Главная</a>
+          </li>
+          <li class="menu-item">
+            <a href="#!" class="menu-link">О компании</a>
+          </li>
+          <li class="menu-item">
+            <a href="index.html" class="menu-link menu-link_active">Новинки обучения</a>
+          </li>
+          <li class="menu-item">
+            <a href="#!" class="menu-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+</footer>
+<script>
+  function show(state) {
+    document.getElementById('forma').style.display = state;
+    document.getElementById('gray').style.display = state;
+  }
+</script>
+</body>
+</html>
