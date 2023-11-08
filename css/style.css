@@ -198,7 +198,7 @@ color: #54575B;
 }
 
 .team_image:hover{
-  width: 70%;
+  width: 100%;
 }
 
 .name {
@@ -422,7 +422,7 @@ animation-duration: 5s;
 @media (max-width:1170px) {
   .menu-item, .footer_menu .menu-link {
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 0;
 }
 
 .sub_skill {
